@@ -1,4 +1,5 @@
 # Binaries
+/system/bin/sensord                                      u:object_r:sensord_exec:s0
 /system/bin/thermal-engine                               u:object_r:thermal-engine_exec:s0
 /system/bin/hwaddrs                                      u:object_r:hwaddrs_exec:s0
 

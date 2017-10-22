@@ -687,9 +687,8 @@ service wcnss-service /system/bin/wcnss_service
 
 # Sensor daemon
 service sensord /system/bin/sensord
-    class late_start
+    class main
     user root
-    group root
 
 on property:init.svc.zygote=restarting
     restart sensord
